@@ -1,0 +1,575 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+}
+
+::selection{
+    background-color: #ff3500;
+    color: #fff;
+}
+
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    padding: 0rem 5rem 0rem 3rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img{
+    width: 7rem;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.name{
+    margin-right: 3rem;
+    width: 31rem;
+    color: #f28121;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    line-height: 2.85rem;
+}
+
+#options{
+    height: 2.4rem;
+    width: 67.9rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.1rem;
+    display: flex;
+    align-items: center;
+    margin: 4.3rem 0rem 4.3rem 0rem;
+}
+
+#options p{
+    margin-right: 3.2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+#options p:hover{
+    color: #f28121;
+}
+
+.nav-toggle{
+    display: none;
+}
+
+#content1{
+    color: white;
+    height: 65rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://www.rcaiitkgp.com/static/media/banner.a1aad82df632ee8e0e54.png);
+    background-size: 100% 100%;
+}
+
+#container{
+    height: 40rem;
+    width: 130rem;
+    padding: 0rem 1.2rem 0rem 1.2rem;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+#texts{
+    height: 38rem;
+    width: 50rem;
+}
+
+#texts h3{
+    font-size: 7.5rem;
+    font-weight: 200;
+}
+
+#texts span{
+    font-size: 7.5rem;
+    font-weight: 800;
+}
+
+#texts p{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+#texts button{
+    height: 6rem;
+    width: 15rem;
+    color: rgb(255, 53, 0);
+    background-color: white;
+    border-radius: 3rem;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+#texts button:hover{
+    color: white;
+    background-color: rgb(255, 53, 0);
+}
+
+#container img{
+    width: 40rem;
+}
+
+#events{
+    width: 100%;
+    margin: 24.1rem 0rem 10.6rem 0rem;
+}
+
+#head h1{
+    text-align: center;
+    color: rgb(33, 37, 41);
+    font-size: 6.4rem;
+    font-weight: 700;
+}
+
+#head p{
+    color: rgb(144, 144, 146);
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+.box{
+    height: 41.8rem;
+    width: 27%;
+    text-align: center;
+    border: 0.08rem solid rgb(255, 197, 194);
+    border-radius: 1rem;
+    color: rgb(33, 37, 41);
+    padding: 7rem 2.5rem 6.5rem 2.5rem;
+    margin: 1.6rem 0.5rem 5rem 0.5rem;
+    background-image: url(https://www.rcaiitkgp.com/static/media/service_icon_bg_1.e4834cefac19d75c84eb.png);
+    background-repeat: no-repeat;
+    background-position: 53% 25%;
+    align-items: center;
+}
+
+.box:hover{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0rem 0.8rem 1.6rem 0rem;
+}
+
+#line1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box img{
+    height: 14.4rem;
+    width: 14.4rem;
+}
+
+.box h3{
+    color: rgb(33, 37, 41);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 4.3rem 0rem 2.2rem 0rem;
+}
+
+.box p{
+    color: rgb(33, 37, 41);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+#content2{
+    color: rgb(33, 37, 41);
+    width: 100%;
+    padding: 2.4rem 0rem 2.4rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contain{
+    width: 132rem;
+    padding: 0rem 1.2rem 0rem 1.2rem;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+#text{
+    height: 32.1rem;
+    width: 63.5rem;
+}
+
+#text h3{
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+#text span{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+#text p{
+    color: rgb(102, 102, 111);
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+#text button{
+    height: 6rem;
+    width: 15rem;
+    color: white;
+    background-color: rgb(241, 68, 55);
+    border-radius: 3rem;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+#contain img{
+    margin: 0rem 1.2rem 0rem 1.2rem;
+    object-fit: contain;
+    width: 40%;
+}
+
+#content3{
+    margin-top: 3rem;
+    color: rgb(33, 37, 41);
+    width: 100%;
+    padding: 0rem 1.2rem 0rem 1.2rem;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+#things{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 85%;
+    margin: 2.4rem 0rem 4.8rem 0rem;
+    padding: 1.6rem;
+    border-radius: 0.6rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0rem 0.8rem 1.6rem 0rem;
+}
+
+#content img{
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+    margin-bottom: 2.4rem;
+}
+
+#content h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.6rem;
+}
+
+#content h3{
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 1.6rem;
+}
+
+#content p{
+    text-align: center;
+    color: rgba(33, 37, 41, 0.75);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+#contact{
+    height: 61.5rem;
+    width: 100%;
+    background-image: url(https://www.rcaiitkgp.com/static/media/contact_bg.d96f389da0044de1ea4c.png);
+    background-size: 100% 100%;
+    padding: 17rem 0rem 16rem 0rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    width: 82.27rem;
+    text-align: center;
+}
+
+#contact h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+#contact h3{
+    margin: 5rem 0rem 5rem 0rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+#foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#foot button{
+    height: 6rem;
+    width: 19rem;
+    color: rgb(255, 53, 0);
+    background-color: white;
+    border-radius: 3rem;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+#foot span{
+    margin: 2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#footer{
+    background-color: rgb(248, 248, 248);
+    color: rgb(33, 37, 41);
+    width: 100%;
+    padding: 5.2rem 1.16rem 5.2rem 1.16rem;
+}
+
+#boxes{
+    display: flex;
+    justify-content: space-around;
+    margin: 0rem 3rem 0rem 3rem;
+}
+
+.b{
+    margin-bottom: 3rem;
+}
+
+#footer h2{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 4.8rem;
+}
+
+#footer p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: rgb(108, 117, 125);
+    margin-bottom: 1.6rem;
+}
+
+#b4{
+    text-align: center;
+    width: 32rem;
+    padding: 0rem 1.2rem 0rem 1.2rem;
+}
+
+#b4 img{
+    height: 7.5rem;
+    width: 7.55rem;
+}
+
+#b4 h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 2.4rem 0rem 2.4rem 0rem;
+}
+
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icons a{
+    height: 5.6rem;
+    margin: 0rem 1.2rem 0rem 1.2rem;
+    text-decoration: rgb(108, 117, 125);
+}
+
+#icons a:hover{
+    text-decoration: rgb(255, 53, 0);
+}
+
+#copyright h3{
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+    color: (108, 117, 125);
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 0rem 2rem 1rem 2rem;
+}
+
+#scrollbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 6rem;
+    right: 6rem;
+    transform: translate(50%,50%);
+}
+
+#sbutton{ 
+    position: fixed; 
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(255, 53, 0);
+    border-radius: 50%;
+}
+
+#scroll{
+    position: fixed;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    border: 0.24rem solid rgb(255, 0, 0);
+    animation: move 0.9s ease 0s infinite normal none;
+}
+
+@keyframes move{
+    from{
+        height: 5rem;
+        width: 5rem;
+        border-color: rgb(255, 0, 0);
+    }
+    to{
+        height: 7rem;
+        width: 7rem;
+        border-color: rgb(236, 171, 96);
+    }
+}
+
+#scrollbutton svg{
+    position: fixed;
+}
+
+@media screen and (max-width: 1519.2px){
+    #events{
+        width: 100%;
+    }
+    #container{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-toggle{
+        display: block;
+        margin-right: 2rem;
+    }
+    #options{
+        display: none;
+    }
+    html, body{
+        font-size: 60%;
+        width: 100%;
+    }
+    #events{
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 992px) {
+    #content1 img{
+        display: none;
+    }
+    .b{
+        width: 40%;
+        text-align: center;
+    }
+    .box{
+        width: 45%;
+    }
+    #boxes{
+        flex-wrap: wrap;
+    }
+    #texts{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    html, body{
+        font-size: 50%;
+        width: 100%;
+    }
+    #foot, #contain{
+        flex-direction: column;
+    }
+    #text{
+        width: 80%;
+    }
+    #contain img{
+        width: 70%;
+    }
+    .b{
+        width: 80%;
+    }
+    .box{
+        width: 70%;
+    }
+    #texts{
+        width: 80%;       
+    }
+}
+
+@media screen and (max-width: 456px){
+    #logo{
+        width: 95%;
+    }
+    #navbar{
+        padding: 0rem 2rem 0rem 2rem;
+    }
+    .box{
+        width: 90%;
+    }
+    #texts{
+        width: 95%;       
+    }
+}
